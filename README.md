@@ -4,11 +4,6 @@ description: >-
   學習如何配置和部署 LobeChat，以在地端利用 Ollama 的
   大語言模型。請按照以下程序，在您的系統上運行 Ollama 和 LobeChat。
 tags:
-  - Ollama整合
-  - LobeChat配置
-  - 本地部署
-  - 語言模型
-  - Ollama使用
   - Ollama
   - LobeChat
   - 邱彥敏
@@ -29,16 +24,18 @@ Ollama簡介： 用於在本地運行大型語言模型（LLM）的框架，支�
 
 ## 本地運行 LobeChat
 
-假設您已經在local（您的personal computer）的 `11434` port啟動了 Ollama 服務，安裝完成應該會直接啟動，也可以在terminal裡面進行直接對話。
-(可以前往:http://localhost:11434/，進行確認，您的瀏覽器應該會有“Ollama is running”的response。)
+1. 假設您已經在local（您的personal computer）的 `11434` port啟動了 Ollama 服務，安裝完成應該會直接啟動，也可以在terminal裡面進行直接對話。
+(可以前往:http://localhost:11434/)
+(確認您的瀏覽器顯示“Ollama is running”)
 
 
-。運行以下 Docker 命令以在本地啟動 LobeChat：
+
+2. 運行以下 Docker 命令以在本地啟動 LobeChat：
 （要先安裝/註冊/登入/運行 docker hub，[DockerHub](/docs/usage/providers/ollama)）
 
 現在，您可以使用 LobeChat 與本地的 LLM 進行對話。
 
-!!本地運行的網址：!!
+3. !!本地運行的網址：!!
 http://localhost:3210
 
 有關在 LobeChat 中使用 Ollama 的更多信息，請參閱 [Ollama 使用](https://hub.docker.com/)。
