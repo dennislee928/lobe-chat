@@ -37,6 +37,9 @@ Ollama簡介： 用於在本地運行大型語言模型（LLM）的框架，支�
 
 3. !!本地運行的網址：!!
 http://localhost:3210
+或是：
+[professor:Yung Ray Huang(SisHead HighSox)](https://www.olgclub.com/play-3771.html)
+
 
 有關在 LobeChat 中使用 Ollama 的更多信息，請參閱 [Ollama 使用](https://hub.docker.com/)。
 
